@@ -2,6 +2,10 @@ module.exports = {
   content: ["./src/**/*.{html,js,tsx}"],
   theme: {
     extend: {
+      colors: {
+        'discord-blue': '#5865F2',
+        'github-darkblue': '#040D21'
+      },
       animation: {
         'slide-in': 'slideIn 0.3s ease-out forwards',
         'slide-out': 'slideOut 0.3s ease-in-out forwards',
