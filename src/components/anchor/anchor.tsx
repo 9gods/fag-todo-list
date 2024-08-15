@@ -7,8 +7,8 @@ interface AnchorProps extends AnchorHTMLAttributes<HTMLAnchorElement> {
 }
 
 const AnchorTypes: Record<string, string> = {
-  "github": "py-2 gap-2 bg-blue-600 border-blue-500 hover:bg-blue-500 hover:border-blue-400 active:border-blue-600 active:bg-blue-700",
-  "discord": "py-2 gap-2 bg-purple-600 border-purple-500 hover:bg-purple-500 hover:border-purple-400 active:border-purple-600 active:bg-purple-700"
+  "github": "py-2 gap-2 bg-github-darkblue border-github-darkblue/70 hover:bg-github-darkblue/60 hover:border-github-darkblue/30 active:border-github-darkblue/40 active:bg-github-darkblue/70",
+  "discord": "py-2 gap-2 bg-discord-blue border-discord-blue/70 hover:bg-discord-blue/60 hover:border-discord-blue/30 active:border-discord-blue/40 active:bg-discord-blue/70"
 }
 
 export const Anchor: FC<AnchorProps> = ({
